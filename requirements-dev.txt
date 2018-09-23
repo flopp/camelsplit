@@ -1,0 +1,4 @@
+codespell
+flake8
+pytest
+pytest-cov
