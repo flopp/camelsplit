@@ -7,13 +7,16 @@ Camel case aware word splitting.
 ## Usage
 
 ```
-import camelsplit
+from camelsplit import camelsplit
+
+# 'CamelCase' -> ['Camel', 'Case']
+camelsplit('CamelCase')
 
 # 'HTTPRequest' -> ['HTTP', 'Request']
-camelsplit.split('HTTPRequest')
+camelsplit('HTTPRequest')
 
-# 'JohnDoe123'-> ['John', 'Doe', '123']
-camelsplit.split('JohnDoe123')
+# 'IEEE 802.11ac' -> ['IEEE', ' 802.11', 'ac']
+camelsplit('IEEE 802.11ac')
 ```
 
 ## License

@@ -1,4 +1,16 @@
-def split(camel_string):
+def camelsplit(camel_string):
+    """Splits 'camel_string' at 'camel case aware' word boundaries and
+    returns the result a list of strings.
+
+    >>> camelsplit('CamelCase')
+    ['Camel', 'Case']
+
+    >>> camelsplit('HTTPRequest')
+    ['HTTP', 'Request']
+
+    >>> camelsplit('IEEE 802.11ac')
+    ['IEEE', ' 802.11', 'ac']
+    """
     res = []
     w = ''
     last_upper = False
@@ -30,6 +42,4 @@ def split(camel_string):
         w += c
     if w != '':
         res.append(w)
-    if len(res) == 18:
-        print('hallo')
     return res

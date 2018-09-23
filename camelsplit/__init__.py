@@ -1,1 +1,1 @@
-from .camelsplit import split  # noqa
+from .camelsplit import camelsplit  # noqa
