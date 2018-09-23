@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/flopp/camelsplit.svg?branch=master)](https://travis-ci.org/flopp/camelsplit)
 ![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)
 
 # camelsplit
