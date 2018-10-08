@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='camelsplit',
-    version='1.0.0',
+    version='1.0.1',
     author='Florian Pigorsch',
     author_email='mail@florian-pigorsch.de',
     description='Camel case aware word splitting.',
