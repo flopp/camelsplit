@@ -2,7 +2,7 @@
 [![PyPI Package](https://img.shields.io/pypi/v/camelsplit.svg)](https://pypi.org/project/camelsplit/)
 ![License MIT](https://img.shields.io/github/license/flopp/camelsplit.svg)
 
-# camelsplit
+# camelsplit 🐪🖖
 Camel case aware word splitting.
 
 
