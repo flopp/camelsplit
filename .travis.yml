@@ -28,3 +28,4 @@ deploy:
   on:
     branch: master
     python: "3.6"
+    tags: true
