@@ -19,3 +19,12 @@ script:
   - make codespell
   - make flake8
   - make pytest
+
+deploy:
+  provider: pypi
+  user: $PYPIUSER
+  password: $PYPIPASSWORD
+  distributions: "sdist"
+  on:
+    branch: master
+    python: "3.6"
